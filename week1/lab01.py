@@ -21,4 +21,4 @@ print("The temperature today is: {:.3f} degrees Celsius".format(temperature))
 # Question 5: User Input
 userAge = int(input("Enter your age: "))
 userAge = userAge + 22
-print("Now showing the shop items filtered by age:", userAge)
+print("Now showing the shop items filtered by age:", userAge)       
