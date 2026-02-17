@@ -15,18 +15,14 @@ print("=" * 50)
 
 
 def fib(n):
-    """
-    Calculate the nth Fibonacci number using recursion.
-
-    F(0) = 0
-    F(1) = 1
-    F(n) = F(n-1) + F(n-2) for n > 1
-
-    Parameters:
-        n (int): The position in the Fibonacci sequence
-
-    Returns:
-        int: The nth Fibonacci number
+   #base case 1 - if n equals 0, return 0
+   if n == 0:
+       return 0
+   #base case2 - oif n equals 1, return 1
+   if n == 1: 
+       return 1 
+    # recurssive cas - return fib(n-1) + fib(n-2)
+    return fib(n-1) + fib(n-2)
     """
     # TODO: Base case 1 - If n equals 0, return 0
 
@@ -67,7 +63,8 @@ def fizz_buzz(n):
     - Divisible by 3 AND 5: "FizzBuzz"
     - Divisible by 3 only: "Fizz"
     - Divisible by 5 only: "Buzz"
-    - Otherwise: the number as a string
+    - Otherwis
+    e: the number as a string
 
     Parameters:
         n (int): The upper limit (inclusive)
