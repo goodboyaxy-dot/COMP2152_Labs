@@ -63,8 +63,7 @@ def fizz_buzz(n):
     - Divisible by 3 AND 5: "FizzBuzz"
     - Divisible by 3 only: "Fizz"
     - Divisible by 5 only: "Buzz"
-    - Otherwis
-    e: the number as a string
+    - Otherwise: the number as a string
 
     Parameters:
         n (int): The upper limit (inclusive)
